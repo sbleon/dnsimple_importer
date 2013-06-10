@@ -1,0 +1,21 @@
+GIT
+  remote: git://github.com/aetrion/dnsimple-ruby.git
+  revision: 784b96cf2c2bf47bbb5cebe531b58ddbd5f5720f
+  specs:
+    dnsimple-ruby (1.4.0)
+      httparty
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    httparty (0.11.0)
+      multi_json (~> 1.0)
+      multi_xml (>= 0.5.2)
+    multi_json (1.7.6)
+    multi_xml (0.5.4)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  dnsimple-ruby!

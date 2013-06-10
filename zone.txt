@@ -1,0 +1,123 @@
+SECTION: singlebrook.com
+vps  A   208.112.1.158   3600 Edit Delete
+intranet   CNAME   sb-intranet.heroku.com  3600 Edit Delete
+singlebrook.com  NS  ns1.lnhi.net  3600 Edit Delete
+singlebrook.com  NS  ns2.lnhi.net  3600 Edit Delete
+singlebrook.com  NS  ns3.lnhi.net  3600 Edit Delete
+singlebrook.com  A   75.101.163.44   3600 Edit Delete
+www  CNAME   singlebrook.com   3600 Edit Delete
+singlebrook.com  MX (1)  aspmx.l.google.com  3600 Edit Delete
+svn  CNAME   office.singlebrook.com  3600 Edit Delete
+singlebrook.com  MX (5)  alt1.aspmx.l.google.com   3600 Edit Delete
+singlebrook.com  MX (5)  alt2.aspmx.l.google.com   3600 Edit Delete
+singlebrook.com  MX (10)   aspmx2.googlemail.com   3600 Edit Delete
+singlebrook.com  MX (10)   aspmx3.googlemail.com   3600 Edit Delete
+singlebrook.com  MX (10)   aspmx4.googlemail.com   3600 Edit Delete
+singlebrook.com  MX (10)   aspmx5.googlemail.com   3600 Edit Delete
+mail   CNAME   ghs.google.com  3600 Edit Delete
+pod.earthcolor.clients   A   204.12.25.89  3600 Edit Delete
+art.laborarts.clients  A   204.12.25.89  3600 Edit Delete
+stage.pod.earthcolor.clients   A   204.12.25.89  3600 Edit Delete
+greenwich.clients  A   204.12.25.89  3600 Edit Delete
+laborarts.clients  A   204.12.25.89  3600 Edit Delete
+cp   A   208.112.89.249  3600 Edit Delete
+blog   CNAME   singlebrook.com   3600 Edit Delete
+beta   A   208.112.1.158   3600 Edit Delete
+smtp-out   CNAME   vps.singlebrook.com   3600 Edit Delete
+pclearnlaptoprentals.clients   A   204.12.25.89  3600 Edit Delete
+nycscc.clients   A   204.12.25.89  3600 Edit Delete
+pclearn.clients  A   204.12.25.89  3600 Edit Delete
+fplist   CNAME   vps.singlebrook.com   3600 Edit Delete
+har.clients  A   204.12.25.89  3600 Edit Delete
+wiki   CNAME   ec2-54-234-44-201.compute-1.amazonaws.com   3600 Edit Delete
+vps1   A   208.112.1.158   3600 Edit Delete
+smtp-in  CNAME   vps.singlebrook.com   3600 Edit Delete
+vps3   A   204.12.23.199   3600 Edit Delete
+backup   CNAME   office.singlebrook.com  3600 Edit Delete
+absre.clients  A   204.12.25.89  3600 Edit Delete
+citylimits.clients   A   204.12.25.91  3600 Edit Delete
+stage.dcs.clients  A   173.203.88.150  3600 Edit Delete
+stats3   A   204.12.25.89  3600 Edit Delete
+pdf.pod.earthcolor.clients   A   204.12.25.89  3600 Edit Delete
+git  CNAME   office.singlebrook.com  3600 Edit Delete
+admin.stage.dcs.clients  CNAME   stage.dcs.clients.singlebrook.com   3600 Edit Delete
+jamex.clients  CNAME   office.singlebrook.com  3600 Edit Delete
+docs   CNAME   ghs.google.com  3600 Edit Delete
+calendar   CNAME   ghs.google.com  3600 Edit Delete
+monitor  A   204.12.25.89  3600 Edit Delete
+ci   CNAME   office.singlebrook.com  3600 Edit Delete
+intranet-stage   CNAME   sb-intranet-stage.heroku.com  3600 Edit Delete
+stage.ffog.clients   A   184.106.94.55   3600 Edit Delete
+tsanyc.clients   A   204.12.25.89  3600 Edit Delete
+nycswcd.clients  A   204.12.25.89  3600 Edit Delete
+viewvc   CNAME   office.singlebrook.com  3600 Edit Delete
+cornellbrand.clients   CNAME   office.singlebrook.com  3600 Edit Delete
+singlebrook.com  A   75.101.145.87   3600 Edit Delete
+singlebrook.com  A   174.129.212.2   3600 Edit Delete
+kb   CNAME   vps.singlebrook.com   3600 Edit Delete
+cs.clients   A   174.129.159.103   600  Edit Delete
+edf.clients  CNAME   office.singlebrook.com  3600 Edit Delete
+singlebrook.com  TXT   v=spf1 include:_spf.google.com include:cmail1.com ip4:204.12.23.199 ip4:208.112.1.158 ~all  3600 Edit Delete
+wcidtest   CNAME   vps.singlebrook.com   3600 Edit Delete
+stage.cha.clients  A   67.214.211.235  3600 Edit Delete
+cornellcast.clients  CNAME   office.singlebrook.com  3600 Edit Delete
+ikn.clients  A   204.12.25.93  3600 Edit Delete
+vconnector.clients   CNAME   ec2-54-225-228-150.compute-1.amazonaws.com  300  Edit Delete
+SECTION: _domainkey.singlebrook.com
+_domainkey.singlebrook.com   NS  ns1.lnhi.net  3600 Edit Delete
+_domainkey.singlebrook.com   NS  ns2.lnhi.net  3600 Edit Delete
+_domainkey.singlebrook.com   NS  ns3.lnhi.net  3600 Edit Delete
+cm   TXT   k=rsa; t=y; p=MHwwDQYJKoZIhvcNAQEBBQADawAwaAJhAMHRHVYgnyOofGgxooA4iw6alaEcN8lDA54ri9NitDc2SP1zm4vlWvG21QZ96BO4RPh6U2ILPjOZrdBVzn0DBiz/sV4oytSmpIZrr7pT2TEpchQ2RnDTctxz0XmlFMMq0QIDAQAB  3600 Edit Delete
+google   TXT   v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCoN+YZcfODb/7TkBxujBiB6T+KjfjEkd3/sGk+nvZ7QKOMe6s7pmd7kU7+krBIJmV2AmGTvptJtpmnNCFDjLjzaJG+L0RUPozrvZyK5xMFOrnu1LUiLKmjfaecIrteFAMoM8lV7MTBqRdbJNMRAvBSUZDdlOcQWuGOG1ZHypVFLQIDAQAB  3600 Edit Delete
+SECTION: cals.clients.singlebrook.com
+cals.clients.singlebrook.com   NS  ns1.lnhi.net  3600 Edit Delete
+cals.clients.singlebrook.com   NS  ns2.lnhi.net  3600 Edit Delete
+cals.clients.singlebrook.com   NS  ns3.lnhi.net  3600 Edit Delete
+cals.clients.singlebrook.com   A   174.129.159.103   3600 Edit Delete
+*  A   174.129.159.103   3600 Edit Delete
+SECTION: clover.office.singlebrook.com
+clover.office.singlebrook.com  NS  ns1.lnhi.net  3600 Edit Delete
+clover.office.singlebrook.com  NS  ns2.lnhi.net  3600 Edit Delete
+clover.office.singlebrook.com  NS  ns3.lnhi.net  3600 Edit Delete
+*  A   10.1.0.116  3600 Edit Delete
+clover.office.singlebrook.com  A   10.1.0.116  3600 Edit Delete
+SECTION: e.singlebrook.com
+e.singlebrook.com  MX (5)  smtp-in.singlebrook.com   3600 Edit Delete
+e.singlebrook.com  NS  ns1.lnhi.net  3600 Edit Delete
+e.singlebrook.com  NS  ns2.lnhi.net  3600 Edit Delete
+e.singlebrook.com  NS  ns3.lnhi.net  3600 Edit Delete
+SECTION: j.singlebrook.com
+j.singlebrook.com  NS  ns1.lnhi.net  3600 Edit Delete
+j.singlebrook.com  NS  ns2.lnhi.net  3600 Edit Delete
+j.singlebrook.com  NS  ns3.lnhi.net  3600 Edit Delete
+j.singlebrook.com  MX (5)  smtp-in.singlebrook.com   3600 Edit Delete
+SECTION: l.singlebrook.com
+l.singlebrook.com  NS  ns1.lnhi.net  3600 Edit Delete
+l.singlebrook.com  NS  ns2.lnhi.net  3600 Edit Delete
+l.singlebrook.com  NS  ns3.lnhi.net  3600 Edit Delete
+l.singlebrook.com  MX (10)   smtp-in.singlebrook.com   3600 Edit Delete
+SECTION: localhost.singlebrook.com
+localhost.singlebrook.com  NS  ns1.lnhi.net  3600 Edit Delete
+localhost.singlebrook.com  NS  ns2.lnhi.net  3600 Edit Delete
+localhost.singlebrook.com  NS  ns3.lnhi.net  3600 Edit Delete
+localhost.singlebrook.com  A   127.0.0.1   3600 Edit Delete
+*  A   127.0.0.1   3600 Edit Delete
+SECTION: nooch.office.singlebrook.com
+*  A   10.1.0.7  3600 Edit Delete
+nooch.office.singlebrook.com   A   10.1.0.7  3600 Edit Delete
+nooch.office.singlebrook.com   NS  ns1.lnhi.net  3600 Edit Delete
+nooch.office.singlebrook.com   NS  ns2.lnhi.net  3600 Edit Delete
+nooch.office.singlebrook.com   NS  ns3.lnhi.net  3600 Edit Delete
+SECTION: office.singlebrook.com
+office.singlebrook.com   NS  ns1.lnhi.net  3600 Edit Delete
+office.singlebrook.com   NS  ns2.lnhi.net  3600 Edit Delete
+office.singlebrook.com   NS  ns3.lnhi.net  3600 Edit Delete
+office.singlebrook.com   A   72.43.20.246  3600 Edit Delete
+violet   A   10.1.0.4  3600 Edit Delete
+printer  A   10.1.0.250  3600 Edit Delete
+router   A   10.1.0.1  3600 Edit Delete
+aaron  A   10.1.0.119  3600 Edit Delete
+isaiah   A   10.1.0.113  3600 Edit Delete
+rose   A   10.1.0.206  3600 Edit Delete
+iris   A   10.1.0.5  3600 Edit Delete
+files  CNAME   iris.office.singlebrook.com   3600 Edit Delete
